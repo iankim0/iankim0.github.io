@@ -1,6 +1,13 @@
 export const WORK = [
     {
         id: 1,
+        role: "Graduate Research Assistant",
+        company: "S4 Lab at Johns Hopkins",
+        period: "September 2026 - Present",
+        description: "Currently building systems and networking infrastructure for a smart intersection using LiDAR. Advised by Professor Renjie Zhao.",
+    },
+    {
+        id: 2,
         role: "AI Research Intern",
         company: "WorldCare",
         period: "January 2026",
@@ -9,7 +16,7 @@ export const WORK = [
         githubUrl: "https://github.com/luhaza/wc_clinical_deid",
     },
     {
-        id: 2,
+        id: 3,
         role: "Teaching Assistant",
         company: "Williams College",
         period: "September 2025 – June 2026",
@@ -20,9 +27,9 @@ export const WORK = [
         ],
     },
     {
-        id: 3,
+        id: 4,
         role: "Research Assistant",
-        company: "Williams College",
+        company: "Professor James Bern Robotics Lab",
         period: "June 2025 – August 2025",
         description: "Working on a team of four, I assisted in the development of a real-time interaction system combining Unity, a Teensy microcontroller, and an ODrive motor controller to simulate tactile object collisions through robotic haptic feedback. Using a custom C-based driver, we synchronized VR object tracking, collision detection, and motor control in real time.",
         github: "github.com/iankim0/wiglet",
